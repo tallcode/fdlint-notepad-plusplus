@@ -1,0 +1,29 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include <windows.h>
+#include "resource.h"
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_XRAYDLG DIALOGEX 26, 41, 529, 145
+STYLE DS_SETFONT | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW | WS_EX_WINDOWEDGE
+CAPTION "FDLint"
+FONT 9, "宋体", 0, 0, 0x0
+BEGIN
+    LISTBOX         IDC_RESULTLIST,0,25,527,48,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_BORDER | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "FDLint",IDC_STATUS,"Static",SS_LEFTNOWORDWRAP | SS_NOPREFIX | SS_ENDELLIPSIS | WS_GROUP,5,5,448,13
+END
+
+
+#endif    // 中文(简体，中国) resources
+
