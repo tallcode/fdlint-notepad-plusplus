@@ -1,3 +1,5 @@
 NppPluginFDLint:Notepad++ 插件
 NPPPluginInstaller:安装程序
 NPPPluginUpdater:在线更新程序
+
+Release:打包的EXE安装程序
